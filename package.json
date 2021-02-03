@@ -1,0 +1,26 @@
+{
+  "name": "coverage",
+  "version": "1.0.0",
+  "description": "Coverage using jest",
+  "main": "index.js",
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["json", "html"]
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragossusi/jest-coverage.git"
+  },
+  "author": "Dragos Rachieru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragossusi/jest-coverage/issues"
+  },
+  "homepage": "https://github.com/dragossusi/jest-coverage#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
